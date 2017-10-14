@@ -1,0 +1,23 @@
+$title-font-family: 'Tangerine', serif;
+$title-font-size: 10em;
+$footer-font-size: 2em;
+$cool-red: rgb(185, 50, 26);
+
+
+h1 {
+  font-family: $title-font-family;
+  font-size: $title-font-size;
+  color: $cool-red;
+}
+
+
+ul {
+  font-family: $title-font-family;
+  font-size: $footer-font-size;
+  list-style: square ;
+  
+  li{
+    display: inline;
+  }
+}
+

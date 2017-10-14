@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+      <h2>{{title}}</h2>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Messages</div>
+      <div class="panel-body">
+        <table>
+            <tr *ngFor="let result of results">
+              <td>{{ result.userId }}</td>
+              <td>{{ result.id }}</td>
+              <td>{{ result.title }}</td>
+              <td>{{ result.body }}</td>
+            </tr>
+          </table>
+      </div>
+    </div>
+    <div class="panel-footer">
+
+        <ul>
+          <li>References :</li>
+          <li><a href="https://angular.io/guide/http" target="_blank">Http Client</a></li>
+          <li><a href="https://medium.com/codingthesmartway-com-blog/using-bootstrap-with-angular-c83c3cee3f4a" target="_blank">Angular Bootstrap</a></li>
+          <li><a href="https://tutorialzine.com/2016/01/learn-sass-in-15-minutes" target="_blank">Sassy Sass</a></li>
+          <li><a href="https://scotch.io/tutorials/using-sass-with-the-angular-cli" target="_blank">Angular with Sass</a></li>
+        </ul>
+    </div>
+</div>
+
+
