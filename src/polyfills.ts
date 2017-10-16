@@ -38,9 +38,12 @@
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 
 /** Evergreen browsers require these. **/
-import 'core-js/es6/reflect';
-import 'core-js/es7/reflect';
 
+// Changes to resolve "Error: Unexpected module 'AppRoutingModule ..." Start
+// import 'core-js/es6/reflect';
+// import 'core-js/es7/reflect';
+import 'reflect-metadata';
+// Changes to resolve "Error: Unexpected module 'AppRoutingModule ..." End
 
 /**
  * Required to support Web Animations `@angular/animation`.
